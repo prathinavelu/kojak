@@ -52,5 +52,5 @@ while n <= max_pages:
         story_list.append(dict)
     n += 1
 
-with open('story_list.pkl', 'w') as picklefile:
+with open('story_list_new.pkl', 'w') as picklefile:
     pickle.dump(story_list, picklefile)
